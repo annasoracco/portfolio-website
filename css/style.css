@@ -1,0 +1,58 @@
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.portfolio-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(180, 180, 255, 0.12);
+  padding: 32px 24px;
+  text-align: center;
+  max-width: 340px;
+  width: 100%;
+}
+
+.profile-photo {
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e1e1f8;
+  margin-bottom: 18px;
+  background: #e1e1f8;
+}
+
+.portfolio-name {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7b4ae2;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .portfolio-container {
+    padding: 24px 0;
+  }
+  .profile {
+    padding: 24px 10px;
+    max-width: 95vw;
+  }
+  .portfolio-name {
+    font-size: 1.5rem;
+  }
+  .profile-photo {
+    width: 80px;
+    height: 80px;
+  }
+}
