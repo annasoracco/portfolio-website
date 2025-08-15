@@ -1,3 +1,31 @@
+body {
+  transition: background 0.3s, color 0.3s;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: #181824;
+    color: #e1e1f8;
+  }
+  .profile {
+    background: #23233a;
+    box-shadow: 0 4px 24px rgba(40, 40, 80, 0.25);
+  }
+  .portfolio-name {
+    color: #ffd6f7;
+  }
+  .about-me {
+    background: #23233a;
+    color: #e1e1f8;
+    box-shadow: 0 2px 8px rgba(40,40,80,0.12);
+  }
+  .about-me h2 {
+    color: #fff7c7;
+  }
+  .sparkle {
+    background: radial-gradient(circle, #ffd6f7 60%, #fff7c7 100%);
+  }
+}
 .sparkle {
   position: absolute;
   background: radial-gradient(circle, #fff7c7 60%, #ffd6f7 100%);
